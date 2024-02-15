@@ -1,0 +1,49 @@
+
+/*Header Properties*/
+.header{
+display: flex;
+height: 57px;
+background-color: lightgray;
+justify-content: space-between;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+
+
+
+  
+
+}
+
+/*Left Properties of Header*/
+.left-side{
+    background-color: lightpink;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+
+.img-hum{
+    height: 30px;
+}
+
+.yt-logo{
+    height: 24px;
+}
+
+.middle-side{
+    background-color: lightblue;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 60px;
+
+}
+.right-side{
+    background-color: lightpink;
+    width: 300px;
+}
