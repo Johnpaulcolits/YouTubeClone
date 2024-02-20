@@ -1,4 +1,18 @@
 body{
     margin: 0;
-    background-color: lightblue;
+    background-color: white;
+    margin-bottom: 1000px;
+    background-color: rgb(250, 249, 249);
 }
+
+
+
+main{
+    background-color: rgb(187, 187, 187);
+    width: 200px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 95px;
+}
+
+

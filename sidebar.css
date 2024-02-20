@@ -1,0 +1,74 @@
+/*Sidebar Properties*/
+.sidebar{
+    background-color: white;
+    width: 72px;
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+    z-index: 200;
+   
+   
+}
+
+.img-home{
+    height: 24px;
+    margin-bottom: 5px;
+  
+
+}
+.img-explore{
+    height: 24px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+
+.img-subscription{
+    height: 24px;
+    margin-left: 16px;
+    margin-bottom: 5px;
+   
+    
+}
+.img-originals{
+    height: 24px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.img-yt-music{
+    height: 24px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.img-library{
+    height: 24px;
+    margin-bottom: 5px;
+}
+.side-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0    ;
+ 
+   
+
+}
+.sidebar-part{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 74px;
+    
+    
+   
+}
+
+
+
+
+
+
+
+

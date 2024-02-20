@@ -10,6 +10,9 @@ left: 0;
 top: 0;
 right: 0;
 background-color: white;
+border-bottom:1px solid;
+border-color: rgb(224, 220, 220);
+
 
 
   
@@ -39,6 +42,8 @@ background-color: white;
     margin-right: 15px;
 }
 
+
+/*Middle properties of header*/
 .middle-side{
  background-color: white;
     flex: 1;
@@ -50,7 +55,7 @@ background-color: white;
 
 }
 .search-bar{
-    height: 40px;
+    height: 39px;
     flex: 1;
     width: 0;
     font-size: 16px;
@@ -63,11 +68,13 @@ background-color: white;
 
 }
 .search-button{
-    height: 44px;
+    height: 43px;
     width: 60px;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(181, 178, 178);
+    vertical-align: top;
+    border-left: none;
 
 }
 .button-voice-search{
@@ -83,7 +90,7 @@ background-color: white;
 }
  
 
-
+/*Right Properties of Header*/
 .right-side{
     background-color: white;
     width: 182px;
@@ -109,10 +116,7 @@ height: 24px;
 }
 .img-profile{
     height: 32px;
-}
-
-
-
+}   
 
 
 
