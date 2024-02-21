@@ -13,6 +13,7 @@ background-color: white;
 border-bottom:1px solid;
 border-color: rgb(224, 220, 220);
 z-index: 100;
+cursor: pointer;
 
 
 
@@ -54,6 +55,7 @@ z-index: 100;
     max-width: 500px;
     align-items: center;
     display: flex;
+   
 
 }
 .search-bar{
@@ -67,6 +69,7 @@ z-index: 100;
     border-width: 1px;
     font-family: Arial, Helvetica, sans-serif;
     outline: none;
+   
 
 }
 .search-button{
@@ -77,19 +80,50 @@ z-index: 100;
     border-color: rgb(181, 178, 178);
     vertical-align: top;
     border-left: none;
+    cursor: pointer;
+    position: relative;
+    
 
 }
+.search-button .tooltip{
+    position: absolute;
+    right: 55px;
+    bottom: -39px;
+    background-color: gray;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+   opacity: 0;
+
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+
+
+
 .button-voice-search{
     height: 46px;
     width: 46px;
     margin-left: 8px;
     border-radius: 138px;
     border: none;
+    cursor: pointer;
 }
 
 .img-search{
     height: 24px;
 }
+
+
+.search-button :hover .tooltip{
+    opacity: 1;
+} 
  
 
 /*Right Properties of Header*/
@@ -115,10 +149,32 @@ height: 24px;
 }
 .img-notif{
     height: 24px;
+    
 }
 .img-profile{
     height: 32px;
-}   
+}
+.right-part{
+    position: relative;
+
+}
+.notif-number{
+    position: absolute;
+    background-color: rgb(170, 6, 6);
+    color: white;
+    top: -2px;
+    right: -4px;
+    width: 15px;
+    height: 15px;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    
+}
 
 
 
