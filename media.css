@@ -11,6 +11,10 @@
         grid-template-columns: 1fr;
     }
 
+    .right-side{
+        display: none;
+    }
+
 
 
     
